@@ -1,0 +1,21 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    line-height: 26px;
+}
+
+p {
+    color: gray;
+}
+
+.shop {
+    background-color: rgb(227, 65, 64);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.shop-now:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
