@@ -19,3 +19,14 @@ p {
     text-decoration: underline;
     cursor: pointer; 
 }
+
+.search-box {
+    border-radius: 20px;
+    padding: 10px 80px 10px 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.search-box:focus {
+    outline: none;
+}
