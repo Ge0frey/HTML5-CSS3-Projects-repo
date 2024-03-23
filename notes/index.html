@@ -1,0 +1,98 @@
+<!-- 
+    HTML Basics
+<button>Hello</button>
+<p>paragraph of text</p>
+Creates a button with the text "Hello" inside.
+Creates a paragraph of text.
+HTML Syntax
+Syntax = rules for writing HTML code (like grammar in English).
+1. Elements should have an opening tag and a matching closing tag.
+2. In HTML, extra spaces and newlines are combined into 1 space.
+<p>paragraph of text</p>
+<p>paragraph
+of
+text</p>
+<p>
+paragraph of text
+</p>
+All 3 examples above will show the same result on the web page.
+Attributes
+Attributes modify how an HTML element behaves.
+<a href="https://youtube.com">
+Link to YouTube
+</a>
+<a> = link to another website.
+href = modiﬁes which website is opened when
+clicking this link.<a href="https://youtube.com" target="_blank">
+Link to YouTube
+</a>
+target="_blank" causes the link
+to be opened in a new tab.
+
+Images
+<img src="image.png">
+Loads an image image.png beside the HTML ﬁle.
+<img src="pics/image.png">
+Loads image.png in the pics folder.
+<img class="image" src="pics/image.png">
+
+Inputs
+<input type="text">
+<input type="text" placeholder="Search">
+<input type="checkbox">
+<input class="search-bar" type="text">
+.search-bar {
+font-size: 30px;
+}
+.search-bar::placeholder {
+font-size: 30px;
+}
+Creates a text box.
+Add a placeholder (a label) to the text box.
+Creates a checkbox.
+Changes the font-size when typing into the text box.
+Changes the font-size of the placeholder.
+
+<div> Element
+<div> is a container. We generally put other elements (including other <div>s) inside (nesting).
+<div class="container">
+<p>Name</p>
+<input type="text">
+</div>
+<div class="container">
+<p>Quantity</p>
+<div>
+<button>1</button>
+<button>2</button>
+</div>
+<button>Submit</button>
+</div>
+.container {
+display: inline-block;
+width: 200px;
+}
+<div>s allow us to group elements together and create
+more complex layouts.Nested Layouts Technique
+There are 2 types of layouts:
+1. Vertical Layout
+2. Horizontal Layout
+Most designs can be created using:
+● Vertical layout inside horizontal layout inside vertical layout ...
+OR
+● Horizontal layout inside vertical layout inside horizontal layout ...
+To Create the Vertical Layouts
+● Use <div>s with display: block (most common)
+● Use ﬂexbox (explained later) with flex-direction: column
+● Use CSS grid (explained later) with 1 column
+To Create the Horizontal Layouts
+● Use <div>s with display: inline-block (not recommended)
+● Use ﬂexbox with flex-direction: row
+● Use CSS grid with multiple columns
+
+Semantic Elements
+Elements that work the same way as <div>. However, they also give the HTML meaning when
+screen readers, search engines, or other devices read the website.
+Common semantic elements include:
+<header>, <nav>, <main>, <section>, etc.
+Here's a list of Semantic Elements. They'll be covered in more detail in the accessibility course.
+ -->
