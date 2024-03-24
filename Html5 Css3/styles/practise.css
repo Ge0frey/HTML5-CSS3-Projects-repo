@@ -12,17 +12,6 @@
     transition: opacity 0.15s;
 }
 
-.search-box {
-    border-radius: 20px;
-    padding: 10px 80px 10px 10px;
-    border: none;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
-}
-
-.search-box:focus {
-    outline: none;
-}
-
 .subscribe:hover {
     opacity: 0.8;
 }
@@ -92,4 +81,85 @@
 
 .tweet-input:focus {
     outline: none;
+}
+
+.enter-name {
+    display: block;
+    margin-top: 10px;
+}
+
+.customer-support {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.google-logo {
+    width: 70px;
+    display: block;
+    margin-left: 80px;
+}
+
+.search-box {
+    border-radius: 20px;
+    padding: 10px 80px 10px 10px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.search-box:focus {
+    outline: none;
+}
+
+.request-ride {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.pickup-station {
+    padding: 10px;
+    background-color: rgb(235, 228, 228);
+    font-size: 8px;
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 200px;
+    color: rgb(104, 101, 101);
+    border: none;
+}
+
+.destination {
+    padding: 10px;
+    background-color: rgb(235, 228, 228);
+    font-size: 8px;
+    display: block;
+    padding-right: 200px;
+    margin-bottom: 20px;
+    color: rgb(104, 101, 101);
+    border: none;
+}
+
+.pickup-station:focus,
+.destination:focus {
+    outline: none;
+}
+
+.request-now {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.schedule-later {
+    background-color: 235, 228, 228;
+    color: rgb(96, 92, 92);
+    padding: 10px 15px;
+    border: none;
+    vertical-align: middle;
+    margin-left: 10px;
+    cursor: pointer;
 }
