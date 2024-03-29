@@ -1,3 +1,30 @@
+body {
+    padding-bottom: 1000px;
+}
+
+.col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.col1 {
+    background-color: lightblue;
+}
+
+.col2 {
+    background-color: lightblue;
+}
+
+.col3 {
+    background-color: lightblue;
+}
+
+.col4 {
+    background-color: lightblue;
+}
+
 .subscribe {
     background-color: #cc0000;
     color: white;
@@ -275,20 +302,17 @@
 
 .container {
     margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    align-items: center;
 }
 
-.cat1 {
-    display: inline-block;
-    width: 170px;
-    box-shadow: 2px 2px 6px rgba(92, 91, 91, 0.8);
-}
 
+.cat1,
 .cat2,
 .cat3 {
-    display: inline-block;
-    width: 170px;
     box-shadow: 2px 2px 6px rgba(92, 91, 91, 0.8);
-    margin-left: 10px;
 }
 
 .profile-pic {
@@ -302,7 +326,7 @@
     margin: 2px 0 0 5px;
 }
 
-.mutuals-profile-pic {
+.mutuals-profile-pic{
     display: inline-block;
     vertical-align: middle;
 }
