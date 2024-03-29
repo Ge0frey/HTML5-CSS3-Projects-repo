@@ -1,5 +1,5 @@
 p {
-    font-family: Roboto;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .search-input {
@@ -26,6 +26,7 @@ p {
     display: inline-block;
     width: 50px;
     vertical-align: top;
+    background-color: gray;
 }
 
 .profile-picture {
@@ -36,6 +37,7 @@ p {
 .video-info {
     display: inline-block;
     width: 246px;
+    background-color: gray;
 }
 
 .video-title {
@@ -46,17 +48,12 @@ p {
     cursor: pointer;
 }
 
-.video-author {
-    color: #6c757d;
-    font-size: 12px;
-    font-weight: 400;
-    cursor: pointer;
-}
-
+.video-author,
 .video-stats {
     color: #606060;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.5PX;
     cursor: pointer;
+    line-height: 1.5PX;
 }
+
