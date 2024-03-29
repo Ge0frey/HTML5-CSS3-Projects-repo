@@ -1,3 +1,24 @@
-.search-input {
-    display: block;
+.header {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    background-color: lightblue;
+    width: 150px;
+}
+
+.middle-section{
+    background-color: lightgreen;
+    flex: 1;
+    margin: 0 35px 0 70px;
+    max-width: 500px;
+}
+
+.right-section {
+    background-color: lightblue;
+    width: 200px;
 }
