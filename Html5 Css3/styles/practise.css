@@ -245,9 +245,8 @@ body {
 
 .google-search {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    padding: 20px; /* Adding some padding for better appearance */
+    flex-direction: column;
+    align-items: center;
 }
 
 .cat-image {
@@ -359,6 +358,74 @@ body {
     border-radius: 5px;
     font-weight: 900;
     cursor: pointer;
+}
+
+.flex-practise {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: lightgrey;
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-one {
+    background-color: lightblue;
+}
+
+.item-two {
+    background-color: lightpink;
+}
+
+.item-three {
+    background-color: lightsteelblue;
+}
+
+.item-four {
+    background-color: lightgreen;
+}
+
+.purple-div {
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(136, 17, 205);
+    display: flex;
+    height: 65px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.p-home {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.s-input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+    background-color: white;
+    color: gray;
+}
+
+.s-input:focus {
+    outline: none;
+}
+
+.b-download {
+    background-color: rgb(136, 17, 205);
+    color: white;
+    margin-right: 10px;
+    border: 1px solid white;
 }
 
 
