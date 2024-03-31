@@ -1,7 +1,39 @@
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     position: fixed;
     top: 65px;
     left: 0;
     width: 72px;
     bottom: 0;
+}
+
+.sidebar-link {
+
+}
+
+.home-icon {
+    height: 24px;
+}
+
+.explore-icon {
+    height: 24px;
+}
+
+.subscription-icon {
+    height: 24px;
+}
+
+.originals-icon {
+    height: 24px;
+}
+
+.youtubemusic-icon {
+    height: 24px;
+}
+
+.library-icon {
+    height: 24px;
 }
