@@ -1,5 +1,6 @@
 body {
-    padding-bottom: 1000px;
+    margin-top: 80px;
+    height: 3000px;
 }
 
 .col {
@@ -429,29 +430,83 @@ body {
 }
 
 .flexbox {
+    display: flex;
     margin-top: 30px;
+}
+
+.row2 {
     display: flex;
-    flex-direction: row;
-    height: 50px;
-  }
-  
-  .column1 {
-    background-color: lightpink;
-    width: 100px;
-  }
-  
-  .column2 {
-    background-color: lightblue;
-    width: 200px;
-  }
-  
-  .row2 {
-    display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-  }
-  
-  .row2-item {
+}
+
+.row-2 {
     background-color: black;
     color: white;
-  }
+}
+
+.div1 {
+    width: 100px;
+    background-color: lightblue;
+}
+
+.div2 {
+    width: 200px;
+    background-color: lightpink;
+}
+
+.bottom-right {
+    padding: 10px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.facebook-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cat-header-pic {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cat-profile-header{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.cat-profile-name {
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.message-btn {
+    background-color: rgb(233, 227, 227);
+    color: black;
+    border: none;
+    margin-left: 5px;
+    font-weight: 900;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.facebook-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
